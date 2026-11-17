@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	var x float64
 	var y float64
 
@@ -11,7 +11,7 @@ func main()  {
 
 	fmt.Println("numero 2 ")
 	fmt.Scanf("%f", &y)
-	
+
 	fmt.Println("Soma é:", x+y)
-	
+
 }

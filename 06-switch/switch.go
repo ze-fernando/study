@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	var status int
 
 	fmt.Print("Digite o status (1 - 4) ")

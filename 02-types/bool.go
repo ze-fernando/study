@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	if false {
 		fmt.Println(true)
 	} else {
-	fmt.Println(false)
+		fmt.Println(false)
 	}
 
 }

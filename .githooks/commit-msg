@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+message=$(head -n 1 "$1")
+if [[ ! "$message" =~ ^(feat|fix|ci):[[:space:]][A-Z][^[:cntrl:]]*$ ]]; then
+  printf '%s\n' 'Commit message must match: feat: Short description, fix: Short description, or ci: Short description.' >&2
+  exit 1
+fi

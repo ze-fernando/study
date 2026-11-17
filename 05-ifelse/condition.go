@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	var idade int
 
 	fmt.Print("Qual sua idade? ")
@@ -16,8 +16,8 @@ func main()  {
 		fmt.Println("Jovem")
 	} else if idade > 12 && idade < 16 {
 		fmt.Println("Adolescente")
-	} else{
+	} else {
 		fmt.Println("Criança")
 	}
-	
+
 }
